@@ -1,0 +1,93 @@
+body {
+  font-family: sans-serif;
+}
+a {
+  text-decoration: none;
+}
+layout {
+  position: relative;
+  display: block;
+  margin-bottom: 10px;
+  padding-bottom: 30px;
+}
+.layout-overlay {
+  display: none;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background:  url('../img/stripe.png');
+  border: 1px solid rgba(0,176,217,0.2);
+}
+.layout-overlay.show {
+  display: block;
+}
+.layout-overlay h2 {
+  background: rgba(255,255,255,0.9);
+  text-align: center;
+  font-size: 16px;
+  padding: 5px;
+  margin: 5px;
+  cursor: move;
+}
+.layout-overlay h2 small {
+  line-height: 30px;
+  font-size: 14px;
+  color: #B6342C;
+}
+.layout-overlay .controls {
+  display: none;
+  background: rgba(255,255,255,0.9);
+  margin: 5px;
+  padding: 5px;
+}
+.layout-overlay .btn.centered {
+   position: absolute;
+   left: 50%;
+   top: 50%;
+   margin: -20px 0 0 -50px;
+ }
+.layout-overlay .buttons {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin: -35px 0 0 -70px;
+  list-style-type: none;
+  padding: 5px;
+  text-align: center;
+}
+.layout-overlay.content:hover {
+  cursor: pointer;
+}
+.layout-overlay .grab-handle {
+  text-align: center;
+  background: #FFF;
+  margin: 0;
+  padding: 5px 0;
+  cursor: move;
+}
+.repeatable-overlay {
+  cursor: pointer;
+}
+.repeatable-layout {
+  position: relative;
+}
+.repeatable-layout .show-on-edit,
+.repeatable-layout.editing layout.placeholder {
+  display: none;
+}
+.repeatable-layout.editing .show-on-edit {
+  display:block;
+}
+.repeatable-layout.editing {
+  border: solid #888888 1px;
+  margin-bottom: 10px;
+}
+.repeatable-layout .items .layout-overlay,
+.repeatable-layout.editing .repeatable-overlay {
+  display: none !important;
+}
+.repeatable-layout.editing .items .layout-overlay.show {
+  display: block !important;
+}

@@ -1,0 +1,371 @@
+
+.layout-overlay .btn {
+  display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.428571429;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+.layout-overlay .btn:focus {
+  outline: thin dotted #333;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+
+.layout-overlay .btn:hover,
+.layout-overlay .btn:focus {
+  color: #333333;
+  text-decoration: none;
+}
+
+.layout-overlay .btn:active,
+.layout-overlay .btn.active {
+  background-image: none;
+  outline: 0;
+  -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+
+.layout-overlay .btn.disabled,
+.layout-overlay .btn[disabled],
+.layout-overlay fieldset[disabled] .btn {
+  pointer-events: none;
+  cursor: not-allowed;
+  opacity: 0.65;
+  filter: alpha(opacity=65);
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.layout-overlay .btn-default {
+  color: #333333;
+  background-color: #ffffff;
+  border-color: #cccccc;
+}
+
+.layout-overlay .btn-default:hover,
+.layout-overlay .btn-default:focus,
+.layout-overlay .btn-default:active,
+.layout-overlay .btn-default.active,
+.layout-overlay .open .dropdown-toggle.btn-default {
+  color: #333333;
+  background-color: #ebebeb;
+  border-color: #adadad;
+}
+
+.layout-overlay .btn-default:active,
+.layout-overlay .btn-default.active,
+.layout-overlay .open .dropdown-toggle.btn-default {
+  background-image: none;
+}
+
+.layout-overlay .btn-default.disabled,
+.layout-overlay .btn-default[disabled],
+.layout-overlay fieldset[disabled] .btn-default,
+.layout-overlay .btn-default.disabled:hover,
+.layout-overlay .btn-default[disabled]:hover,
+.layout-overlay fieldset[disabled] .btn-default:hover,
+.layout-overlay .btn-default.disabled:focus,
+.layout-overlay .btn-default[disabled]:focus,
+.layout-overlay fieldset[disabled] .btn-default:focus,
+.layout-overlay .btn-default.disabled:active,
+.layout-overlay .btn-default[disabled]:active,
+.layout-overlay fieldset[disabled] .btn-default:active,
+.layout-overlay .btn-default.disabled.active,
+.layout-overlay .btn-default[disabled].active,
+.layout-overlay fieldset[disabled] .btn-default.active {
+  background-color: #ffffff;
+  border-color: #cccccc;
+}
+
+.layout-overlay .btn-primary {
+  color: #ffffff;
+  background-color: #428bca;
+  border-color: #357ebd;
+}
+
+.layout-overlay .btn-primary:hover,
+.layout-overlay .btn-primary:focus,
+.layout-overlay .btn-primary:active,
+.layout-overlay .btn-primary.active,
+.layout-overlay .open .dropdown-toggle.btn-primary {
+  color: #ffffff;
+  background-color: #3276b1;
+  border-color: #285e8e;
+}
+
+.layout-overlay .btn-primary:active,
+.layout-overlay .btn-primary.active,
+.layout-overlay .open .dropdown-toggle.btn-primary {
+  background-image: none;
+}
+
+.layout-overlay .btn-primary.disabled,
+.layout-overlay .btn-primary[disabled],
+.layout-overlay fieldset[disabled] .btn-primary,
+.layout-overlay .btn-primary.disabled:hover,
+.layout-overlay .btn-primary[disabled]:hover,
+.layout-overlay fieldset[disabled] .btn-primary:hover,
+.layout-overlay .btn-primary.disabled:focus,
+.layout-overlay .btn-primary[disabled]:focus,
+.layout-overlay fieldset[disabled] .btn-primary:focus,
+.layout-overlay .btn-primary.disabled:active,
+.layout-overlay .btn-primary[disabled]:active,
+.layout-overlay fieldset[disabled] .btn-primary:active,
+.layout-overlay .btn-primary.disabled.active,
+.layout-overlay .btn-primary[disabled].active,
+.layout-overlay fieldset[disabled] .btn-primary.active {
+  background-color: #428bca;
+  border-color: #357ebd;
+}
+
+.layout-overlay .btn-warning {
+  color: #ffffff;
+  background-color: #f0ad4e;
+  border-color: #eea236;
+}
+
+.layout-overlay .btn-warning:hover,
+.layout-overlay .btn-warning:focus,
+.layout-overlay .btn-warning:active,
+.layout-overlay .btn-warning.active,
+.layout-overlay .open .dropdown-toggle.btn-warning {
+  color: #ffffff;
+  background-color: #ed9c28;
+  border-color: #d58512;
+}
+
+.layout-overlay .btn-warning:active,
+.layout-overlay .btn-warning.active,
+.layout-overlay .open .dropdown-toggle.btn-warning {
+  background-image: none;
+}
+
+.layout-overlay .btn-warning.disabled,
+.layout-overlay .btn-warning[disabled],
+.layout-overlay fieldset[disabled] .btn-warning,
+.layout-overlay .btn-warning.disabled:hover,
+.layout-overlay .btn-warning[disabled]:hover,
+.layout-overlay fieldset[disabled] .btn-warning:hover,
+.layout-overlay .btn-warning.disabled:focus,
+.layout-overlay .btn-warning[disabled]:focus,
+.layout-overlay fieldset[disabled] .btn-warning:focus,
+.layout-overlay .btn-warning.disabled:active,
+.layout-overlay .btn-warning[disabled]:active,
+.layout-overlay fieldset[disabled] .btn-warning:active,
+.layout-overlay .btn-warning.disabled.active,
+.layout-overlay .btn-warning[disabled].active,
+.layout-overlay fieldset[disabled] .btn-warning.active {
+  background-color: #f0ad4e;
+  border-color: #eea236;
+}
+
+.layout-overlay .btn-danger {
+  color: #ffffff;
+  background-color: #d9534f;
+  border-color: #d43f3a;
+}
+
+.layout-overlay .btn-danger:hover,
+.layout-overlay .btn-danger:focus,
+.layout-overlay .btn-danger:active,
+.layout-overlay .btn-danger.active,
+.layout-overlay .open .dropdown-toggle.btn-danger {
+  color: #ffffff;
+  background-color: #d2322d;
+  border-color: #ac2925;
+}
+
+.layout-overlay .btn-danger:active,
+.layout-overlay .btn-danger.active,
+.layout-overlay .open .dropdown-toggle.btn-danger {
+  background-image: none;
+}
+
+.layout-overlay .btn-danger.disabled,
+.layout-overlay .btn-danger[disabled],
+.layout-overlay fieldset[disabled] .btn-danger,
+.layout-overlay .btn-danger.disabled:hover,
+.layout-overlay .btn-danger[disabled]:hover,
+.layout-overlay fieldset[disabled] .btn-danger:hover,
+.layout-overlay .btn-danger.disabled:focus,
+.layout-overlay .btn-danger[disabled]:focus,
+.layout-overlay fieldset[disabled] .btn-danger:focus,
+.layout-overlay .btn-danger.disabled:active,
+.layout-overlay .btn-danger[disabled]:active,
+.layout-overlay fieldset[disabled] .btn-danger:active,
+.layout-overlay .btn-danger.disabled.active,
+.layout-overlay .btn-danger[disabled].active,
+.layout-overlay fieldset[disabled] .btn-danger.active {
+  background-color: #d9534f;
+  border-color: #d43f3a;
+}
+
+.layout-overlay .btn-success {
+  color: #ffffff;
+  background-color: #5cb85c;
+  border-color: #4cae4c;
+}
+
+.layout-overlay .btn-success:hover,
+.layout-overlay .btn-success:focus,
+.layout-overlay .btn-success:active,
+.layout-overlay .btn-success.active,
+.layout-overlay .open .dropdown-toggle.btn-success {
+  color: #ffffff;
+  background-color: #47a447;
+  border-color: #398439;
+}
+
+.layout-overlay .btn-success:active,
+.layout-overlay .btn-success.active,
+.layout-overlay .open .dropdown-toggle.btn-success {
+  background-image: none;
+}
+
+.layout-overlay .btn-success.disabled,
+.layout-overlay .btn-success[disabled],
+.layout-overlay fieldset[disabled] .btn-success,
+.layout-overlay .btn-success.disabled:hover,
+.layout-overlay .btn-success[disabled]:hover,
+.layout-overlay fieldset[disabled] .btn-success:hover,
+.layout-overlay .btn-success.disabled:focus,
+.layout-overlay .btn-success[disabled]:focus,
+.layout-overlay fieldset[disabled] .btn-success:focus,
+.layout-overlay .btn-success.disabled:active,
+.layout-overlay .btn-success[disabled]:active,
+.layout-overlay fieldset[disabled] .btn-success:active,
+.layout-overlay .btn-success.disabled.active,
+.layout-overlay .btn-success[disabled].active,
+.layout-overlay fieldset[disabled] .btn-success.active {
+  background-color: #5cb85c;
+  border-color: #4cae4c;
+}
+
+.layout-overlay .btn-info {
+  color: #ffffff;
+  background-color: #5bc0de;
+  border-color: #46b8da;
+}
+
+.layout-overlay .btn-info:hover,
+.layout-overlay .btn-info:focus,
+.layout-overlay .btn-info:active,
+.layout-overlay .btn-info.active,
+.layout-overlay .open .dropdown-toggle.btn-info {
+  color: #ffffff;
+  background-color: #39b3d7;
+  border-color: #269abc;
+}
+
+.layout-overlay .btn-info:active,
+.layout-overlay .btn-info.active,
+.layout-overlay .open .dropdown-toggle.btn-info {
+  background-image: none;
+}
+
+.layout-overlay .btn-info.disabled,
+.layout-overlay .btn-info[disabled],
+.layout-overlay fieldset[disabled] .btn-info,
+.layout-overlay .btn-info.disabled:hover,
+.layout-overlay .btn-info[disabled]:hover,
+.layout-overlay fieldset[disabled] .btn-info:hover,
+.layout-overlay .btn-info.disabled:focus,
+.layout-overlay .btn-info[disabled]:focus,
+.layout-overlay fieldset[disabled] .btn-info:focus,
+.layout-overlay .btn-info.disabled:active,
+.layout-overlay .btn-info[disabled]:active,
+.layout-overlay fieldset[disabled] .btn-info:active,
+.layout-overlay .btn-info.disabled.active,
+.layout-overlay .btn-info[disabled].active,
+.layout-overlay fieldset[disabled] .btn-info.active {
+  background-color: #5bc0de;
+  border-color: #46b8da;
+}
+
+.layout-overlay .btn-link {
+  font-weight: normal;
+  color: #428bca;
+  cursor: pointer;
+  border-radius: 0;
+}
+
+.layout-overlay .btn-link,
+.layout-overlay .btn-link:active,
+.layout-overlay .btn-link[disabled],
+.layout-overlay fieldset[disabled] .btn-link {
+  background-color: transparent;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.layout-overlay .btn-link,
+.layout-overlay .btn-link:hover,
+.layout-overlay .btn-link:focus,
+.layout-overlay .btn-link:active {
+  border-color: transparent;
+}
+
+.layout-overlay .btn-link:hover,
+.layout-overlay .btn-link:focus {
+  color: #2a6496;
+  text-decoration: underline;
+  background-color: transparent;
+}
+
+.layout-overlay .btn-link[disabled]:hover,
+.layout-overlay fieldset[disabled] .btn-link:hover,
+.layout-overlay .btn-link[disabled]:focus,
+.layout-overlay fieldset[disabled] .btn-link:focus {
+  color: #999999;
+  text-decoration: none;
+}
+
+.layout-overlay .btn-lg {
+  padding: 10px 16px;
+  font-size: 18px;
+  line-height: 1.33;
+  border-radius: 6px;
+}
+
+.layout-overlay .btn-sm,
+.layout-overlay .btn-xs {
+  padding: 5px 10px;
+  font-size: 12px;
+  line-height: 1.5;
+  border-radius: 3px;
+}
+
+.layout-overlay .btn-xs {
+  padding: 1px 5px;
+}
+
+.layout-overlay .btn-block {
+  display: block;
+  width: 100%;
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.layout-overlay .btn-block + .btn-block {
+  margin-top: 5px;
+}
+
+.layout-overlay input[type="submit"].btn-block,
+.layout-overlay input[type="reset"].btn-block,
+.layout-overlay input[type="button"].btn-block {
+  width: 100%;
+}
